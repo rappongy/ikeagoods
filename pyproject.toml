@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ikeagoods"
+version = "0.1.0"
+description = "Parsing goods from IKEA"
+authors = ["rappongy <emil_m90@mail.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+scrapy = "^2.2.0"
+furl = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
